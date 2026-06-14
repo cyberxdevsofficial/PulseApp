@@ -24,8 +24,8 @@ const PresenceBadge = ({ uid }) => {
 
 const Avatar = ({ item, size = 48, radius = 16 }) => {
   const [imgError, setImgError] = useState(false);
-  const isSannasa = item.isSystem || item.isSupport;
-  const photoUrl = isSannasa ? '/logo.png' : (item.photoURL || item.logo);
+  const isPulseApp = item.isSystem || item.isSupport;
+  const photoUrl = isPulseApp ? '/logo.png' : (item.photoURL || item.logo);
 
   useEffect(() => {
     setImgError(false);
@@ -34,7 +34,7 @@ const Avatar = ({ item, size = 48, radius = 16 }) => {
   return (
     <div style={{
       width: size, height: size, borderRadius: radius,
-      background: isSannasa ? 'var(--primary)' : 'rgba(255,255,255,0.06)',
+      background: isPulseApp ? 'var(--primary)' : 'rgba(255,255,255,0.06)',
       display: 'flex', justifyContent: 'center', alignItems: 'center',
       fontWeight: 'bold', overflow: 'hidden', position: 'relative',
       border: '1px solid rgba(255,255,255,0.06)', flexShrink: 0,
