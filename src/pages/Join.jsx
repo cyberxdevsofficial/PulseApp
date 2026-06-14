@@ -144,7 +144,7 @@ const Join = () => {
           maxWidth: '80%',
           margin: '0 auto 2.5rem'
         }}>
-          {item.description || `Join this ${type === 'channels' ? 'channel' : 'group'} on Sannasa to stay updated.`}
+          {item.description || `Join this ${type === 'channels' ? 'channel' : 'group'} on PulseApp to stay updated.`}
         </p>
 
         <div style={{
