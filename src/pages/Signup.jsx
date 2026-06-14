@@ -85,7 +85,7 @@ const Signup = () => {
       >
         <div style={{ textAlign: 'center', marginBottom: '2.5rem' }}>
           <h1 style={{ fontSize: '2.5rem', marginBottom: '0.5rem' }}>Create <span className="gradient-text">Account</span></h1>
-          <p style={{ color: 'var(--text-dim)' }}>Join the Sannasa community today</p>
+          <p style={{ color: 'var(--text-dim)' }}>Join the PulseApp community today</p>
         </div>
         
         {error && (
