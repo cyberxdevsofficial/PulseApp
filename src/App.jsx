@@ -44,7 +44,7 @@ const AppRoutes = () => {
             transition={{ duration: 3, repeat: Infinity, ease: "easeInOut" }}
             style={{ width: 120, height: 120, borderRadius: 36, background: 'rgba(255,255,255,0.03)', backdropFilter: 'blur(10px)', border: '1px solid rgba(255,255,255,0.1)', display: 'flex', alignItems: 'center', justifyContent: 'center', boxShadow: '0 20px 50px rgba(0,0,0,0.5)' }}
           >
-            <img src="/logo.png" style={{ width: '70%', height: '70%', objectFit: 'contain', filter: 'drop-shadow(0 0 15px var(--primary))' }} alt="Sannasa" />
+            <img src="/logo.png" style={{ width: '70%', height: '70%', objectFit: 'contain', filter: 'drop-shadow(0 0 15px var(--primary))' }} PulseApp" />
           </motion.div>
           
           {/* Animated Spinner & Text */}
@@ -54,7 +54,7 @@ const AppRoutes = () => {
               <div style={{ width: 8, height: 8, borderRadius: '50%', background: 'var(--primary)', animation: 'pulse 1.5s infinite 0.2s' }} />
               <div style={{ width: 8, height: 8, borderRadius: '50%', background: 'var(--primary)', animation: 'pulse 1.5s infinite 0.4s' }} />
             </div>
-            <div style={{ fontSize: '1.1rem', fontWeight: 600, color: 'white', letterSpacing: '4px', opacity: 0.6, textTransform: 'uppercase' }}>Sannasa</div>
+            <div style={{ fontSize: '1.1rem', fontWeight: 600, color: 'white', letterSpacing: '4px', opacity: 0.6, textTransform: 'uppercase' }}>PulseApp</div>
           </div>
 
           <style>{`
