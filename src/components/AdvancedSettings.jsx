@@ -230,7 +230,7 @@ const AdvancedSettings = ({ onClose }) => {
             <Palette size={24} color="white" />
           </div>
           <div style={{ flex: 1 }}>
-            <div style={{ fontWeight: 800, fontSize: '1.1rem' }}>Sannasa Plus</div>
+            <div style={{ fontWeight: 800, fontSize: '1.1rem' }}>PulseApp Plus</div>
             <div style={{ fontSize: '0.85rem', opacity: 0.7 }}>Unlock exclusive features and themes</div>
           </div>
           <button className="btn-primary" style={{ height: 36, padding: '0 16px', borderRadius: 12, fontSize: '0.85rem' }}>View</button>
