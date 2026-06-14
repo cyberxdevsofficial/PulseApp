@@ -1,0 +1,12 @@
+name = "sannasa"
+main = "worker/index.js"
+compatibility_date = "2024-01-01"
+compatibility_flags = ["nodejs_compat"]
+
+assets = { directory = "./dist", binding = "ASSETS" }
+
+[vars]
+ENVIRONMENT = "production"
+GITHUB_OWNER = "YOUR_USERNAME"
+GITHUB_REPO = "sannasa-storage"
+
