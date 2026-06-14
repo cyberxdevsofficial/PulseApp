@@ -59,7 +59,7 @@ const Login = () => {
       >
         <div style={{ textAlign: 'center', marginBottom: '2.5rem' }}>
           <h1 style={{ fontSize: '2.5rem', marginBottom: '0.5rem' }}>Welcome <span className="gradient-text">Back</span></h1>
-          <p style={{ color: 'var(--text-dim)' }}>Sign in to continue to Sannasa</p>
+          <p style={{ color: 'var(--text-dim)' }}>Sign in to continue to PulseApp</p>
         </div>
 
         {error && (
