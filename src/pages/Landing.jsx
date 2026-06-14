@@ -26,7 +26,7 @@ const Landing = () => {
             Next Gen <span className="gradient-text">Social Platform</span>
           </h1>
           <p style={{ fontSize: '1.25rem', color: 'var(--text-dim)', maxWidth: '700px', margin: '0 auto 2.5rem', lineHeight: '1.6' }}>
-            Experience Sannasa—the ultimate social media ecosystem for chats, groups, and channels. Built on serverless architecture for the modern web.
+            Experience PulseApp—the ultimate social media ecosystem for chats, groups, and channels. Built on serverless architecture for the modern web.
           </p>
           <div style={{ display: 'flex', gap: '1rem', justifyContent: 'center' }}>
             <button onClick={() => navigate('/signup')} className="btn-primary" style={{ padding: '16px 32px', fontSize: '1.1rem' }}>
@@ -67,7 +67,7 @@ const Landing = () => {
       <section style={{ padding: '6rem 2rem', textAlign: 'center' }}>
         <div className="glass" style={{ maxWidth: '900px', margin: '0 auto', padding: '4rem', borderRadius: '32px' }}>
           <h2 style={{ fontSize: '2.5rem', marginBottom: '1.5rem' }}>Verified & Trusted</h2>
-          <p style={{ color: 'var(--text-dim)', marginBottom: '2.5rem', fontSize: '1.1rem' }}>Join thousands of creators and developers who choose Sannasa for their community.</p>
+          <p style={{ color: 'var(--text-dim)', marginBottom: '2.5rem', fontSize: '1.1rem' }}>Join thousands of creators and developers who choose PulseApp for their community.</p>
           <div style={{ display: 'flex', flexWrap: 'wrap', gap: '2rem', justifyContent: 'center' }}>
             <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
               <CheckCircle size={24} className="text-blue-500" /> <span>Meta-style Verification</span>
@@ -84,7 +84,7 @@ const Landing = () => {
 
       {/* Footer */}
       <footer style={{ padding: '4rem 2rem', textAlign: 'center', borderTop: '1px solid var(--glass-border)', marginTop: '4rem' }}>
-        <p style={{ color: 'var(--text-dim)' }}>© 2026 Sannasa Social Platform. Built with ❤️ for the future.</p>
+        <p style={{ color: 'var(--text-dim)' }}>© 2026 PulseApp Social Platform. Built with ❤️ for the future.</p>
       </footer>
     </div>
   );
